@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # Your existing routes, if any, may be defined above
 
   resources :packages
